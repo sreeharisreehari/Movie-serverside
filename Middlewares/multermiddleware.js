@@ -22,12 +22,10 @@ const fileFilter=(req,file,callback)=>{
     }
 
 }
-// create multerconfigure
 const multerconfig=multer({
     storage,
     fileFilter
 })
 
-// export multer
 module.exports=multerconfig
 

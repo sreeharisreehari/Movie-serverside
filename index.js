@@ -30,10 +30,7 @@ server.get('/',(req,res)=>{
     res.send(`project fair running succesfuly and ready to accept request`)
 })
 
-// // post request
-// pfserver.post('/',(req,res)=>{
-//     res.send(`post request`)
-// })
+
 
 
 
